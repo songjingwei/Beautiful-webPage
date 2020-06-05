@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('./font/iconfont.eot');
+    src: url('./font/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('./font/iconfont.woff2') format('woff2'),
+        url('./font/iconfont.woff') format('woff'),
+        url('./font/iconfont.ttf') format('truetype'),
+        url('./font/iconfont.svg#iconfont') format('svg');
+}
+
+body {
+    background-image: url(../images/time.jpg);
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    background-size:cover;
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#id-div-login {
+    width: 25vw;
+    height: 21vh;
+    text-align: center;
+    margin-left: 70vw;
+    margin-top: 30vh;
+    background-color: rgba(122, 120, 123, 90%);
+    padding: 2vh 0;
+}
+
+#id-div-login h1 {
+    color: white;
+    font-size: 16px;
+}
+
+#id-form-login {
+    margin-top: 2vh;
+}
+
+#id-form-login .space {
+    width: 25vw;
+    height: 2vh;
+}
+
+#id-form-login .item {
+    margin: 0 auto;
+    width: 20vw;
+    height: 4vh;
+    background-color: white;
+}
+
+#id-form-login .item input {
+    width: 16vw;
+    height: 4vh;
+    border: none;
+    outline: none;
+    margin-left: 1vw;
+}
+
+#id-form-login .item .myicon {
+    font: bold;
+    position: relative;
+    left: -0.5vw;
+}
+
+#id-form-login button {
+    margin-top: 0.5vh;
+    width: 20vw;
+    height: 3.5vh;
+    font-size: 16px;
+    background-color: rgba(72,102,94,80);
+}
+
+
+
+
+
