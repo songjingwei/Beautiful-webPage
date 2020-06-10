@@ -1,0 +1,40 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+#title {
+     text-align: center;
+     font-size: 44px;
+     color: seagreen;
+     margin-top: 1vh;
+     position: relative;
+     top: 15px;
+     text-shadow: slateblue;
+ }
+
+
+#container {
+    display: flex;
+    justify-content: center;
+} 
+
+
+#editor {
+    width: 800px;
+    height: 800px;
+    background-color: seashell;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 6vh;
+}    
+
+#preview {
+    width: 800px;
+    height: 800px;
+    background-color: rgba(445, 455,138, 0.4);
+    margin-left: 10px;
+    padding-left: 20px;
+    margin-top: 6vh;
+    border: rosybrown 1px solid;
+} 
