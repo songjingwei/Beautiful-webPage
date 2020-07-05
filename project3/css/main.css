@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../static/font/iconfont.eot');
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../static/font/iconfont.woff2') format('woff2'),
+        url('../static/font/iconfont.woff') format('woff'),
+        url('../static/font/iconfont.ttf') format('truetype'),
+        url('../static/font/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

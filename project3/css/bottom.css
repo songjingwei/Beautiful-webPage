@@ -1,0 +1,56 @@
+#id-div-bottom {
+    width: 100vw;
+    height: 40vh;
+    background-color: #f9f9f9;
+}
+
+#id-div-bottom .bottom-upper {
+    height: 25vh;
+    text-align: center;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+}
+
+#id-div-bottom .bottom-upper img{
+    height: 10vh;
+    margin-bottom: 0.5vh;
+}
+
+#id-div-bottom .bottom-upper .font-bigger{
+    font-size: 3vh;
+    margin-bottom: 0.5vh;
+}
+
+#id-div-bottom .bottom-upper .font-smaller{
+    display: inline-block;
+    width: 30vw;
+    font-size: 1vh;
+    font-weight: 60;
+}
+
+#id-div-bottom .bottom-lower {
+    height: 15vh;
+    padding: 2vh 4vh;
+}
+
+#id-div-bottom .bottom-lower ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#id-div-bottom .bottom-lower ul div {
+    width: 20vw;
+    text-align: center;
+}
+
+#id-div-bottom .bottom-lower ul div .bigger{
+    font-size: 1vh;
+    font-weight: 800;
+}
+
+#id-div-bottom .bottom-lower ul div .smaller{
+    font-size: 1vh;
+    font-weight: 60;
+}
+
+

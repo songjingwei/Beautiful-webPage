@@ -1,0 +1,72 @@
+#id-div-upper {
+    height: 50vh;
+    background-image: url(../static/upper1.png); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#id-div-upper .nav {
+    display: flex;
+    padding-top: 2vh;
+    height: 8vh;
+    justify-content: space-around;
+}
+
+#id-div-upper .nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#id-div-upper .nav ul li {
+    margin-left: 1.5vw;
+}
+
+#id-div-upper .nav ul li a{
+    font-size: 1vw;
+    color: white;
+    text-decoration: none;
+}
+
+#id-div-upper .nav ul li a:hover {
+    color: turquoise;
+    font-size: 2vw;
+}
+
+#id-div-upper .nav ul li a img:hover {
+    transform: scale(1.6);
+}
+
+#id-div-upper .slide {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#id-div-upper .slide .slide-center {
+    text-align: center;
+}
+
+#id-div-upper .slide .slide-center .text {
+    text-align: center;
+    width: 40vw;
+    color: white;
+    font-size: 4vw;
+    font-weight: 600;
+    margin-top: 1vh;
+}
+
+#id-div-upper .slide .slide-center .smaller {
+    text-align: center;
+    width: 40vw;
+    color: #c3bfbe;
+    padding: 0 3vw;
+    
+}
+
+#id-div-upper .slide .button-control:hover {
+    transform: scale(1.2);
+}
+
+
+

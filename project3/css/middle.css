@@ -1,0 +1,96 @@
+#id-div-middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 8vw;
+    width: 100vw;
+    height: 10vh;
+    background-color: #3b3d40;
+    outline: none;
+}
+
+#id-div-middle .class-user-input input{
+    border: 0;
+    height: 3.2vh;
+    width: 20vw;
+    background-color:#585a5c;
+    color: #ffffff;
+    border-radius: 0.5vh;
+    padding-left: 1.6vw;
+  }
+  
+#id-div-middle .class-user-input input:focus{
+    outline: none;
+}
+
+#id-div-middle .class-user-input input::-webkit-input-placeholder {
+    /* placeholder颜色  */
+    color: #ffffff;
+    /* placeholder字体大小  */
+    font-size: 1.2vh;
+    /* placeholder位置  */
+    left: 30px;
+    opacity: 0.9;
+}
+
+#id-div-middle .class-user-select {
+  position: relative;
+}
+  
+#id-div-middle .class-user-select input {
+    width: 42vw;
+}
+
+#id-div-middle .class-user-select i {
+  position: absolute;
+  left: 39vw;
+  top: 0.5vh;
+  color: #ffffff;
+  font-size: 1vh;
+}
+
+#id-div-middle .class-user-select ul.active {
+  /* position: absolute;
+  width: 100%;
+  text-align: center; */
+  display: block; 
+}
+
+#id-div-middle .class-user-select ul{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+#id-div-middle .class-user-select ul li {
+  color: #ffffff;
+  background-color: #3b3d40;
+  border: 1px white solid;
+  border-color: #585a5c;
+  opacity: 70;
+  text-shadow: #585a5c;
+}
+
+#id-div-middle .class-user-select ul li:hover {
+  background-color: cornflowerblue;
+}
+
+
+
+#id-div-middle button {
+    border: 0;
+    height: 3.2vh;
+    width: 12vw;
+    background-color: #2e71f2;
+    border-radius: 2vh;
+    color: #ffffff;
+    font-size: 1px;
+    text-align: center;
+}
+
+#id-div-middle button:hover {
+    outline: none;
+    transform: scale(1.1, 1.1) ;
+}
+  
