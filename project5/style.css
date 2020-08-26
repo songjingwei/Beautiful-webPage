@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PingFang SC", sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #222f3e;
+    height: 100vh;
+}
+
+.upload-button {
+    width: 180px;
+    height: 60px;
+    background-image: linear-gradient(160deg, #0093e9, #80d0c7);
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 147, 233, 0.28);
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.upload-button .checkmark {
+    opacity: 0;
+}
+
+.upload-button .progress-bar {
+    position: absolute;
+    height: 2px;
+    background-image: linear-gradient(45deg, #85ffbd, #fffb7d);
+    bottom: 0;
+    left: 0;
+    border-radius: 4px;
+}
+
+.upload-button.uploading .middle-line {
+    stroke-dasharray: 4 3;
+    animation: dashLoop 0.8s linear infinite;
+}
+
+.upload-button.uploading circle {
+    animation: blink 1.5s linear infinite;
+}
+
+.upload-button.uploaded .arrow-top {
+    animation: arrowTransform 1s linear forwards;
+} 
+
+.upload-button.uploaded .checkmark {
+    opacity: 1;
+    stroke-dasharray: 100 100;
+    stroke-dashoffset: 100;
+    animation: checkMarkTransform 1s linear forwards 0.5s;
+} 
+
+.upload-button.uploaded .middle-line {
+    transition: 0.3s linear;
+    opacity: 0;
+}
+
+
+
+@keyframes dashLoop {
+    from {
+        stroke-dashoffset: 0;
+    }
+    to {
+        stroke-dashoffset: 7;
+    }
+}
+
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes arrowTransform {
+    from {
+        stroke-dasharray: 100 100;
+        stroke-dashoffset: 0;
+    }
+    to {
+        stroke-dasharray: 100 100;
+        stroke-dashoffset: -100;
+    }
+
+}
+
+@keyframes checkMarkTransform {
+    from {
+        stroke-dasharray: 100 100;
+        stroke-dashoffset: 100;
+    }
+    to {
+        stroke-dasharray: 100 100;
+        stroke-dashoffset: 0;
+    }
+}
